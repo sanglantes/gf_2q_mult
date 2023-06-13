@@ -54,7 +54,7 @@ void polynomial_representation(uint64_t polynomial) {
 
 	for (int i = 0; i < h_degree; i++) {
 		if (polynomial & (1 << i)) {
-			printf("x^%d +", i);
+			printf("x^%d + ", i);
 		}
 	}
 	printf(" 0\n"); // Sloppy, but works :-)
