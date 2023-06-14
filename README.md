@@ -1,7 +1,7 @@
 # gf_2q_mult
 A demonstration program for finite field arithmetic in $char(\mathbb{F}_q) = 2$ 
 ## Overview
-Binary finite fields provide faster arithmetic on hardware, trading off simplicity provided when working with integer rings $(\mathbb{Z}/p\mathbb{Z})^\times$. It is heavily used in elliptic curve cryptography, however there is debate whether composite curves provide the same level of security as their corresponding prime curve (index calculus, supersingular curves, curves with trace 1, etc).
+Binary finite fields provide faster arithmetic on hardware, trading off simplicity provided when working with integer rings $(\mathbb{Z}/p\mathbb{Z})^\times$. It is heavily used in elliptic curve cryptography, however there is debate whether composite curves provide the same level of security as their corresponding prime curve (anamolous & supersingular curves, curves with trace 1, etc).
 
 ## Algorithm
 ![Algorithm](img/1.png)
