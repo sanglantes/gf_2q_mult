@@ -35,7 +35,7 @@ uint64_t gf_mul(gf_t* field, uint64_t a, uint64_t b) {
 			rop ^= a;
 		}
 		a <<= 1;
-		if (a & (1ULL << field->q)) {
+		if (a & (1ULL << powl(2, field->q))) {
 			a ^= field->poly;
 		}
 		b >>= 1;
